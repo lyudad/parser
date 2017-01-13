@@ -1,0 +1,28 @@
+{
+  "name": "parser",
+  "version": "0.0.0",
+  "description": "test task",
+  "main": "crone.js",
+  "license": "UNLICENSED",
+  "scripts": {
+    "start": "node crone.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/amirrajan/word-finder.git"
+  },
+  "dependencies": {
+    "async": "^2.1.4",
+    "asynk": "0.0.11",
+    "body-parser": "^1.15.2",
+    "check-proxy": "^0.1.3",
+    "cron": "^1.2.1",
+    "express": "^4.14.0",
+    "mongodb": "^2.2.16",
+    "mongoose": "^4.7.4",
+    "node-cron": "^1.1.2"
+  },
+  "devDependencies": {
+    "decache": "^4.1.0"
+  }
+}
